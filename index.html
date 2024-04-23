@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title> Homepage </title>
+		<title> Riccardo Dondi -  Homepage </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 	<style>
 		.MyBlue {
-			height:313px; 
+			height:393px; 
 		background-color: #000044;
 			}
 
@@ -34,6 +34,41 @@
 			  opacity: 0.8;
 				}
 
+
+		.MyGreen {
+		background-color: #114411;
+			}
+
+		.MyGreen:hover {
+			opacity: 0.8;
+			}
+
+
+		.myFilt1 {
+			border-radius: 8px;
+			filter: blur(5px);
+		}
+
+		.myFilt2 {
+			border-radius: 8px;
+			filter: brightness(150%);
+		}
+
+		.myFilt3 {
+			border-radius: 8px;
+			filter: contrast(200%) drop-shadow(8px 8px 10px gray);	
+		}
+
+
+		.myFilt4 {
+			border-radius: 8px;
+			filter: hue-rotate(90deg);
+		}
+
+		.myFilt5 {
+			-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+			filter: grayscale(100%);
+		}
 	</style>
 	
 	</head>
@@ -56,7 +91,7 @@
     <div class="collapse navbar-collapse  justify-content-end" id="barraNav">
       <ul class="navbar-nav nav-underline">
         <li class="nav-item px-3">
-          <a class="nav-link active" aria-current="page" href="#">Homepage</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
         </li>
         <li class="nav-item px-3">
           <a class="nav-link" href="Research.html">Research</a>
@@ -65,7 +100,7 @@
           <a class="nav-link" href="Publications.html">Publications</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="About.html">About me</a>
+          <a class="nav-link"  href="About.html">About me</a>
         </li>
       </ul>
     </div>
@@ -73,25 +108,29 @@
 </nav>
 </div>
 
-<br>
+
 
 <div class="container">
   <div class="row text-white pb-2">
-    <div class="col-sm-8" >
+    <div class="col-md-8 mt-4" >
 	<div class="me-md-1 mb-2 pt-1 pb-1 px-3 MyBlue"> 
 			<p> <h5> Riccardo Dondi </h5> </p>
 			<p> Associate Professor in Computer Science</p>
-			<p class="mb-8"> University of Bergamo</p>
+			<p> University of Bergamo</p>
+			<p class="mb-8"> <strong>Research interests </strong>: graph algorithms, temporal graphs, algorithms in bioinformatics, phylogenomics</p>
 		</div>
     </div>
-    <div class="col-sm-4 ">
+    <div class="col-md-4 mt-4">
 		<div class="mb-sm-4 mb-2 pt-1 pb-1 px-3 MyRed" >
 			<p> <h5> Address </h5> </p>
 			<p> Via S. Tomaso 40</p>
-			<p> Bergamo - Italy</p>
+			<p> Bergamo </p>
+			<p> Italy</p>
+
 		</div>
 		<div class="pt-1 pb-1 px-3 MyYellow" >
 			<p> <h5> Contact </h5> </p>
+			<p> Preferred contact: email </p>
 			<p> <i class="bi-envelope-at" style="color:#ddddd"> </i> &nbsp; firstname . lastname @ unibg.it</p>
 			<p> <i class="bi-telephone-fill" style="color:#ddddd"> </i> &nbsp; +39 0352052774</p>
 		</div>
@@ -101,26 +140,8 @@
 
 </div>
 
-<!--
-<footer>
-<div class="container">
-<nav class="navbar navbar-expand-lg mt-1" style="background-color: #000044;" data-bs-theme="dark">
-  <div class="container-fluid">
-      <ul class="navbar-nav justify-content-center">
-        <li class="nav-item nav-link active" > Thanks to <a href="https://getbootstrap.com/"><i class="bi-bootstrap"></i></a>
-        </li>
-      </ul>
-  </div>
-</nav>
-</div>
 
-<div>
-<br>
-</div>
-
-</footer>  -->
-
-
+<!-- <div class="container d-flex justify-content-center mt-4">  -->
 
 <footer>
 <div class="container mt-2">
@@ -133,12 +154,11 @@
 
 </div>
 
-</footer> 
-
 <div>
 <br>
 </div>
 
+</footer> 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
